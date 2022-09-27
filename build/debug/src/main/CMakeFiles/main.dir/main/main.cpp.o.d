@@ -352,8 +352,14 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: \
   /usr/lib/llvm-14/include/llvm/IR/ProfileSummary.h \
   /usr/lib/llvm-14/include/llvm/Support/CodeGen.h \
   /usr/include/llvm-12/llvm/IR/LLVMContext.h \
+  /usr/include/llvm-12/llvm/IR/Function.h \
+  /usr/include/llvm-12/llvm/IR/Instruction.h \
+  /usr/include/llvm-12/llvm/IR/User.h \
+  /usr/include/llvm-12/llvm/ADT/ilist.h \
+  /usr/include/llvm-12/llvm/IR/BasicBlock.h \
   /usr/include/llvm-12/llvm/Support/SourceMgr.h \
   /usr/lib/llvm-14/include/llvm/Support/MemoryBuffer.h \
   /usr/lib/llvm-14/include/llvm/Support/ErrorOr.h \
   /usr/lib/llvm-14/include/llvm/Support/MemoryBufferRef.h \
-  /usr/lib/llvm-14/include/llvm/Support/SMLoc.h
+  /usr/lib/llvm-14/include/llvm/Support/SMLoc.h \
+  /usr/include/llvm-12/llvm/Support/raw_ostream.h
