@@ -1,0 +1,10 @@
+/home/danila/std/compiler/llvm/build/debug/CMakeFiles/intrinsics_gen.dir
+/home/danila/std/compiler/llvm/build/debug/CMakeFiles/omp_gen.dir
+/home/danila/std/compiler/llvm/build/debug/CMakeFiles/acc_gen.dir
+/home/danila/std/compiler/llvm/build/debug/CMakeFiles/edit_cache.dir
+/home/danila/std/compiler/llvm/build/debug/CMakeFiles/rebuild_cache.dir
+/home/danila/std/compiler/llvm/build/debug/src/CMakeFiles/edit_cache.dir
+/home/danila/std/compiler/llvm/build/debug/src/CMakeFiles/rebuild_cache.dir
+/home/danila/std/compiler/llvm/build/debug/src/main/CMakeFiles/main.dir
+/home/danila/std/compiler/llvm/build/debug/src/main/CMakeFiles/edit_cache.dir
+/home/danila/std/compiler/llvm/build/debug/src/main/CMakeFiles/rebuild_cache.dir
