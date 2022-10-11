@@ -372,31 +372,7 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
   /usr/lib/llvm-12/include/llvm/ADT/GraphTraits.h \
   /usr/lib/llvm-12/include/llvm/IR/InstrTypes.h \
   /usr/lib/llvm-12/include/llvm/IR/Constants.h \
-  /usr/lib/llvm-12/include/llvm/Pass.h \
-  /usr/lib/llvm-12/include/llvm/PassAnalysisSupport.h \
-  /usr/lib/llvm-12/include/llvm/PassSupport.h \
-  /usr/lib/llvm-12/include/llvm/PassInfo.h \
-  /usr/lib/llvm-12/include/llvm/PassRegistry.h \
-  /usr/lib/llvm-12/include/llvm/Support/RWMutex.h \
-  /usr/lib/llvm-12/include/llvm/Support/Threading.h \
-  /usr/lib/llvm-12/include/llvm/ADT/BitVector.h \
-  /usr/lib/llvm-12/include/llvm/ADT/FunctionExtras.h \
-  /usr/include/c++/11/ciso646 \
-  /usr/include/c++/11/mutex \
-  /usr/include/c++/11/bits/std_mutex.h \
-  /usr/include/c++/11/bits/unique_lock.h \
-  /usr/include/c++/11/shared_mutex \
   /usr/include/llvm-12/llvm/IR/LLVMContext.h \
-  /usr/include/llvm-12/llvm/IR/Function.h \
-  /usr/include/llvm-12/llvm/IR/Module.h \
-  /usr/lib/llvm-12/include/llvm/IR/Comdat.h \
-  /usr/lib/llvm-12/include/llvm/IR/DataLayout.h \
-  /usr/lib/llvm-12/include/llvm/IR/GlobalAlias.h \
-  /usr/lib/llvm-12/include/llvm/IR/GlobalIndirectSymbol.h \
-  /usr/lib/llvm-12/include/llvm/IR/GlobalIFunc.h \
-  /usr/lib/llvm-12/include/llvm/IR/GlobalVariable.h \
-  /usr/lib/llvm-12/include/llvm/IR/ProfileSummary.h \
-  /usr/lib/llvm-12/include/llvm/Support/CodeGen.h \
   /usr/include/llvm-12/llvm/IRReader/IRReader.h \
   /usr/include/llvm-12/llvm/Support/SourceMgr.h \
   /usr/lib/llvm-12/include/llvm/Support/MemoryBuffer.h \
@@ -433,6 +409,8 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 
 /usr/lib/llvm-12/include/llvm/Support/Path.h:
 
+/usr/include/c++/11/bits/stl_stack.h:
+
 /usr/include/c++/11/deque:
 
 /usr/include/c++/11/stack:
@@ -461,33 +439,7 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 
 /usr/lib/llvm-12/include/llvm/Support/MemoryBufferRef.h:
 
-/usr/lib/llvm-12/include/llvm/Support/CodeGen.h:
-
-/usr/lib/llvm-12/include/llvm/IR/GlobalAlias.h:
-
-/usr/lib/llvm-12/include/llvm/IR/DataLayout.h:
-
-/usr/lib/llvm-12/include/llvm/IR/Comdat.h:
-
-/usr/include/llvm-12/llvm/IR/Function.h:
-
 /usr/include/llvm-12/llvm/IR/LLVMContext.h:
-
-/usr/include/c++/11/shared_mutex:
-
-/usr/include/c++/11/mutex:
-
-/usr/lib/llvm-12/include/llvm/ADT/FunctionExtras.h:
-
-/usr/lib/llvm-12/include/llvm/ADT/BitVector.h:
-
-/usr/include/c++/11/bits/stl_stack.h:
-
-/usr/lib/llvm-12/include/llvm/PassSupport.h:
-
-/usr/lib/llvm-12/include/llvm/PassAnalysisSupport.h:
-
-/usr/lib/llvm-12/include/llvm/Pass.h:
 
 /usr/lib/llvm-12/include/llvm/IR/Constants.h:
 
@@ -509,15 +461,11 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 
 /usr/lib/llvm-12/include/llvm/Support/WithColor.h:
 
-/usr/lib/llvm-12/include/llvm/PassRegistry.h:
-
 /usr/include/c++/11/ctime:
 
 /usr/include/c++/11/ratio:
 
 /usr/lib/llvm-12/include/llvm/Support/raw_ostream.h:
-
-/usr/include/llvm-12/llvm/IR/Module.h:
 
 /usr/lib/llvm-12/include/llvm/ADT/StringSwitch.h:
 
@@ -593,8 +541,6 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 
 /usr/lib/llvm-12/include/llvm/ADT/Twine.h:
 
-/usr/lib/llvm-12/include/llvm/IR/GlobalIndirectSymbol.h:
-
 /usr/lib/llvm-12/include/llvm/Support/ReverseIteration.h:
 
 /usr/lib/llvm-12/include/llvm/ADT/EpochTracker.h:
@@ -659,8 +605,6 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
-/usr/include/c++/11/bits/std_mutex.h:
-
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
@@ -700,8 +644,6 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/lib/llvm-12/include/llvm/IR/GlobalVariable.h:
 
 /usr/include/c++/11/ext/new_allocator.h:
 
@@ -831,8 +773,6 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/lib/llvm-12/include/llvm/Support/Threading.h:
-
 /usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/stl_function.h:
@@ -866,8 +806,6 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/c++/11/bits/char_traits.h:
-
-/usr/include/c++/11/ciso646:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -1039,8 +977,6 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 
 /usr/include/alloca.h:
 
-/usr/lib/llvm-12/include/llvm/PassInfo.h:
-
 /usr/include/c++/11/cstdio:
 
 /usr/include/stdio.h:
@@ -1084,8 +1020,6 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/c++/11/system_error:
-
-/usr/lib/llvm-12/include/llvm/IR/GlobalIFunc.h:
 
 /usr/include/c++/11/cstddef:
 
@@ -1193,8 +1127,6 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 
 /usr/include/c++/11/bits/stl_heap.h:
 
-/usr/include/c++/11/bits/unique_lock.h:
-
 /usr/include/c++/11/bits/uses_allocator.h:
 
 /usr/include/c++/11/bits/refwrap.h:
@@ -1231,8 +1163,6 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 
 /usr/include/c++/11/bits/vector.tcc:
 
-/usr/lib/llvm-12/include/llvm/IR/ProfileSummary.h:
-
 /usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
@@ -1252,8 +1182,6 @@ src/main/CMakeFiles/main.dir/main/main.cpp.o: /home/danila/std/compiler/llvm/src
 /usr/include/c++/11/string_view:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/lib/llvm-12/include/llvm/Support/RWMutex.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 

@@ -5,10 +5,7 @@
 
 #include <llvm/IR/Function.h>
 #include <llvm/IR/Instructions.h>
-#include <llvm/Pass.h>
-#include <llvm/Support/Casting.h>
 #include <llvm-12/llvm/IR/LLVMContext.h>
-#include <llvm-12/llvm/IR/Function.h>
 #include <llvm-12/llvm/IR/Module.h>
 #include <llvm-12/llvm/IRReader/IRReader.h>
 #include <llvm-12/llvm/Support/SourceMgr.h>
