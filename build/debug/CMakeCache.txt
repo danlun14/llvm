@@ -225,8 +225,14 @@ LIBXML2_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libxml2.so
 //Path to a program.
 LIBXML2_XMLLINT_EXECUTABLE:FILEPATH=LIBXML2_XMLLINT_EXECUTABLE-NOTFOUND
 
+//The directory containing a CMake configuration file for LLVM-12.
+LLVM-12_DIR:PATH=LLVM-12_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for LLVM12.
+LLVM12_DIR:PATH=LLVM12_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for LLVM.
-LLVM_DIR:PATH=/usr/lib/llvm-14/cmake
+LLVM_DIR:PATH=/usr/lib/llvm-12/cmake
 
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
@@ -408,8 +414,6 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: FFI_HEADER
-FFI_HEADER-ADVANCED:INTERNAL=1
 FFI_HEADER:INTERNAL=ffi.h
 //ADVANCED property for variable: FFI_INCLUDE_DIRS
 FFI_INCLUDE_DIRS-ADVANCED:INTERNAL=1
@@ -421,12 +425,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_FFI:INTERNAL=[/usr/lib/x86_64-linux-gnu/libffi.so][
 FIND_PACKAGE_MESSAGE_DETAILS_LibXml2:INTERNAL=[/usr/lib/x86_64-linux-gnu/libxml2.so][/usr/include/libxml2][v2.9.13()]
 //Details about finding Terminfo
 FIND_PACKAGE_MESSAGE_DETAILS_Terminfo:INTERNAL=[/usr/lib/x86_64-linux-gnu/libtinfo.so][1][v()]
-//ADVANCED property for variable: HAVE_FFI_CALL
-HAVE_FFI_CALL-ADVANCED:INTERNAL=1
 //Test HAVE_FFI_CALL
 HAVE_FFI_CALL:INTERNAL=1
-//ADVANCED property for variable: HAVE_FFI_H
-HAVE_FFI_H-ADVANCED:INTERNAL=1
 HAVE_FFI_H:INTERNAL=1
 //ADVANCED property for variable: LIBXML2_INCLUDE_DIR
 LIBXML2_INCLUDE_DIR-ADVANCED:INTERNAL=1
@@ -475,8 +475,6 @@ PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Terminfo_LIBRARIES
 Terminfo_LIBRARIES-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Terminfo_LINKABLE
-Terminfo_LINKABLE-ADVANCED:INTERNAL=1
 //Test Terminfo_LINKABLE
 Terminfo_LINKABLE:INTERNAL=1
 //ADVANCED property for variable: ZLIB_INCLUDE_DIR

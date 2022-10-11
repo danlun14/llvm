@@ -92,7 +92,7 @@ main_EXTERNAL_OBJECTS =
 
 /home/danila/std/compiler/llvm/bin/main: src/main/CMakeFiles/main.dir/main/main.cpp.o
 /home/danila/std/compiler/llvm/bin/main: src/main/CMakeFiles/main.dir/build.make
-/home/danila/std/compiler/llvm/bin/main: /usr/lib/llvm-14/lib/libLLVM-14.so.1
+/home/danila/std/compiler/llvm/bin/main: /usr/lib/llvm-12/lib/libLLVM-12.so.1
 /home/danila/std/compiler/llvm/bin/main: src/main/CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danila/std/compiler/llvm/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/danila/std/compiler/llvm/bin/main"
 	cd /home/danila/std/compiler/llvm/build/debug/src/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
