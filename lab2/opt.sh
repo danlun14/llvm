@@ -1,0 +1,1 @@
+opt-12 -O3  --print-after=loop-unroll --print-before=loop-unroll -S sum.ll -o sum_o3.ll -time-passes -stats 
